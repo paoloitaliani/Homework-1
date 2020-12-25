@@ -330,7 +330,7 @@ plot(cg1,main="")
 Again this method doesn't let us make a clear interpretation about the number of clusters. The "globalSEmax" and  "Tibs2001SEmax" criterion indicate that the number of clusters should be ten, but simply they are suggesting the solution with most clusters. 
 
 
-# EXERCISE 2
+# EXERCISE 3
 
 The "kmeans++" method is an improvement of the basic one because it entroduces a smarter initialization of the centroids. By definition this are the steps of the algorithm:
 
