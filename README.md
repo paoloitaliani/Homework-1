@@ -1,7 +1,25 @@
----
-title: "Homework 1"
-output: pdf_document
----
+# Exercise 1
+
+Run K-means for the Olive Oil data with K = 3 and K = 9 with scaled
+and unscaled data. Assuming that the macro-areas are the “true” clusters for K = 3,
+use table to compare the macro-areas with the clustering. Do you think that these
+are good clustering results in terms of matching the macro-areas? Why? Does the
+clustering on scaled or unscaled data look better?
+Do the same for the regions and the K = 9-clustering.
+
+# Exercise 2 
+On Moodle you can find the data set Boston.dat. This data set contains
+information collected by the U.S Census Service concerning housing in the area of
+Boston Mass. The data was originally published by Harrison, D. and Rubinfeld,
+D.L. ‘Hedonic prices and the demand for clean air’, J. Environ. Economics &
+Management, vol.5, 81-102, 1978.
+
+# Exercise 3
+“kmeans++” is the name of a method to initialise the k-means algorithm
+that has been proposed in the literature. Do some research on the internet, find out
+and explain how this works. It can be run by the following function kmpp, where X
+is a data matrix and k is the number of clusters. The output is of the same format
+as kmeans.
 
 # EXERCISE 1
 
